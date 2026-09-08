@@ -1,4 +1,4 @@
-﻿# Taller Mecánico 114-2A-F2
+# Taller Mecánico 114-2A-F2
 
 ## 📋 Información del Módulo
 - **Módulo:** Taller Mecánico (114-2A-F2)
@@ -28,7 +28,8 @@
 | Sesión # | Fecha | Actividad Realizada | Observaciones / Acuerdos | Responsable |
 | :---: | :---: | :--- | :--- | :--- |
 | **01** | 2026-09-02 | Creación e inicialización del repositorio y estructura base de bitácora. | Repositorio público configurado en GitHub con GitHub CLI. | Docente / Estudiante |
-| **02** | -- | *Registro de próxima sesión* | *Pendiente* | -- |
+| **02** | 2026-09-07 | Creación de `vehiculo.py` con clase `Vehiculo`: atributos tipados (`patente`, `anio`, `_en_taller`), constructor `__init__` con validaciones de datos, métodos `ingresar()` y `entregar()`, y configuración de `.gitignore`. | Pruebas ejecutadas en consola, control de versiones local y sincronización con GitHub y VS Code. | Docente / Estudiante |
+| **03** | -- | *Registro de próxima sesión* | *Pendiente* | -- |
 
 ---
 
