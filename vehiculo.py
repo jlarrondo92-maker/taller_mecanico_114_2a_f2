@@ -23,3 +23,13 @@ class Vehiculo:
         self.patente = patente
         self.anio = anio
         self._en_taller = _en_taller
+
+    # Método para registrar el ingreso al taller
+    def ingresar(self) -> None:
+        # Cambiar el estado del vehículo a True (en taller)
+        self._en_taller = True
+
+    # Método para registrar la entrega del vehículo
+    def entregar(self) -> None:
+        # Cambiar el estado del vehículo a False (fuera de taller)
+        self._en_taller = False
