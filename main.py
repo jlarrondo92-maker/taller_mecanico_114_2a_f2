@@ -1,4 +1,23 @@
 from vehiculo import Vehiculo
+from auto import Auto
+from moto import Moto
+from camion import Camion
+
+
+v=Vehiculo("1234" ,1930)
+v.ingresar()
+print("Vehiculo_en_taller")
+
+
+print(v.en_taller)
+
+print(v.tarifa_hora())
+
+v.entregar()
+
+print(v.en_taller)
+
+
 
 # Creación de dos vehículos
 v1 = Vehiculo(patente="KXPR84", anio=2019)
